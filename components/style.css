@@ -1,0 +1,198 @@
+* {
+  width: 1272px;
+  height: 1440px;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-container {
+  height: 700px;
+}
+
+.top-side {
+  height: 700px;
+}
+.text-left {
+  padding-top: 125px;
+  padding-left: 100px;
+  text-align: center;
+  display: flex;
+  height: 700px;
+  width: 50%;
+}
+.right-side {
+  width: 50%;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  height: 700px;
+}
+
+.left-side {
+  position: absolute;
+  display: flex;
+  height: 500px;
+  width: 50%;
+}
+
+.left-side h1 {
+  color: #252525;
+  font-size: 56px;
+  width: 800px;
+  height: 400px;
+  text-indent: 0;
+  letter-spacing: 0.1em;
+  text-align: left;
+  line-height: 1.5;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.left-side p {
+  color: #252525c9;
+
+  position: absolute;
+  display: flex;
+  padding-top: 250px;
+  flex-direction: column; /* Add this line */
+  width: 400px;
+  height: 150px;
+  font-size: 26px;
+  text-align: left;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.btn {
+  width: 157px;
+  height: 50px;
+
+  position: absolute;
+  display: flex;
+  margin-left: 25px;
+  top: 525px;
+  flex-direction: column; /* Add this line */
+  left: 75px;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+
+  justify-content: center;
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.card-right {
+  width: 508px;
+  height: 580px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  background-image: url("/assets/ft-left.jpg");
+  background-size: cover;
+
+  position: absolute;
+  left: 35%;
+  top: 30%;
+}
+.card-left {
+  width: 508px;
+  height: 580px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  background-image: url("/assets/ft-right.jpg");
+  background-size: cover;
+
+  position: absolute;
+  display: flex;
+  right: 80%;
+
+  bottom: 10%;
+}
+.footer-section {
+  width: 100%;
+  justify-content: space-around;
+}
+.imgs {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 180px;
+  position: absolute;
+}
+.card1 {
+  width: 512px;
+  height: 481px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+
+  background-image: url("/assets/ft1.jpg");
+  background-size: cover;
+}
+
+.text-card01 {
+  position: absolute;
+  display: flex;
+  top: 150px;
+  left: 120px;
+  color: #25252584;
+
+  font-size: 30px;
+}
+
+.card2 {
+  width: 512px;
+  height: 481px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  margin-left: 80px;
+
+  background-image: url("/assets/ft2.jpg");
+  background-size: cover;
+}
+
+.text-card02 {
+  position: absolute;
+  display: flex;
+  top: 150px;
+  left: 710px;
+  color: #25252584;
+
+  font-size: 30px;
+}
+
+.card3 {
+  width: 512px;
+  height: 481px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  margin-left: 80px;
+
+  background-image: url("/assets/ft3.jpg");
+  background-size: cover;
+}
+
+.text-card03 {
+  position: absolute;
+  display: flex;
+  top: 150px;
+  left: 1300px;
+  color: #25252584;
+
+  font-size: 30px;
+}
